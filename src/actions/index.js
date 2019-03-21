@@ -1,4 +1,3 @@
-// example
 export const getResource = (data) => ({
   type: 'GET_RESOURCE', data,
 });
@@ -6,7 +5,6 @@ export const getResource = (data) => ({
 export const updateCurrentPath = (path) => ({
   type: 'UPDTE_CURRENTPATH', path,
 });
-
 
 export const userLogin = (data) => ({
   type: 'USER_LOGIN', data

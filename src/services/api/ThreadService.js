@@ -1,8 +1,6 @@
 // Service for resource
 import request from '../lib/request';
 
-
-
 const getAllThreads = (params) => {
   return request({
     url: `/threads`,

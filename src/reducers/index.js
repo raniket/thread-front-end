@@ -68,7 +68,6 @@ const reducer = (state = initState, action) => {
     case 'CREATE_THREAD':
       return { ...state, loading: true };
     case 'CREATE_THREAD_DONE':
-      // return { ...state, threadCreated: true, loading: false };
       return updateThreadList(state, action);
     case 'CREATE_THREAD_FAILED':
       return { ...state, threadCreated: false, loading: false };

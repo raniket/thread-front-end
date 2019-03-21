@@ -1,7 +1,6 @@
 // Service for resource
 import request from '../lib/request';
 
-
 /**
  * Create a resource
  *
