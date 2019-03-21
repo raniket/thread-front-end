@@ -13,7 +13,7 @@ class Header extends Component {
     return (
       <nav className="blue-gradient animated fadeIn fast header-background mb-1 navbar navbar-expand-lg navbar-dark info-color">
         {(user.firstName) ? <span className="navbar-toggler-icon mr-4 mr-sm-5"></span> : <span></span>}
-        <span className="navbar-brand ml-4">Decoder</span>
+        <span className="navbar-brand ml-4">Dcoder</span>
         <span className="ml-auto text-white mr-4 mr-sm-5">{(user.firstName) ? `Hello ${user.firstName}!` : `Login/Register`}</span>
       </nav>
     );

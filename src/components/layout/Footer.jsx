@@ -37,7 +37,7 @@ class Footer extends Component {
         </div>
 
         <div className="footer-copyright text-center">© 2019 Copyright:
-          <a href="#footer"> Decoder Tech</a>
+          <a href="#footer"> Dcoder Tech</a>
         </div>
 
       </footer>
